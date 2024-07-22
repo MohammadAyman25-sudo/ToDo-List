@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Inder&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap');
+
+.main{
+    height: 95dvh;
+    width: 80dvw;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-left: 1.5rem;
+}
+
+.upcoming-page {
+    background-color: #dfdfdf;
+}
+
+.main > .head {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    width: 67.5%;
+}
+
+.main > .head > h2 {
+    margin: 0;
+    padding-bottom: 1.25rem;
+    font-family: 'Oswald', sans-serif;
+    font-size: 2.25rem;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+.main > .today {
+    border: 1px solid #00000066;
+    padding: 0.55rem 2.5rem;
+    margin-right: 0.75rem;
+    border-radius: 0.75rem;
+    height: 14rem;
+    width: 90%;
+    margin-bottom: 1rem;
+}
+
+.main > .today > h3 {
+    margin: 0;
+    font-family: 'Oswald', sans-serif;
+    font-size: 2.25rem;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+label {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 0.875rem;
+    font-weight: 400;
+}
+
+.add-task {
+    border: 1px solid #00000066;
+    padding: 0.25rem 0.75rem;
+    border-radius: 0.65rem;
+}
+
+.add-task > a {
+    text-decoration: none;
+    color: #000000b3;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 0.875rem;
+    font-weight: 300;
+}
+
+.task {
+    border-bottom: 1px solid #00000066;
+    padding: 0.5rem 0;
+}
+
+.not-today {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 40dvh;
+    gap: 1.5rem;
+    padding: 0;
+}
+.main > .not-today > .tomorrow {
+    display: inline-block;
+    border: 1px solid #00000066;
+    padding: 0.55rem 2.5rem;
+    width: 40.15%;
+    border-radius: 0.75rem;
+}
+
+.main > .not-today > .tomorrow > h3 {
+    margin: 0;
+    font-family: 'Oswald', sans-serif;
+    font-size: 2.25rem;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+.main > .not-today > .this-week {
+    display: inline-block;
+    width: 40.15%;
+    border: 1px solid #00000066;
+    padding: 0.55rem 2.5rem;
+    margin-right: 0.75rem;
+    border-radius: 0.75rem;
+}
+
+.main > .not-today > .this-week > h3 {
+    margin: 0;
+    font-family: 'Oswald', sans-serif;
+    font-size: 2.25rem;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+

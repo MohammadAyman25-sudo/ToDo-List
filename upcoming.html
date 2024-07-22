@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ToDo Py</title>
+    <link rel="shortcut icon" href="./images/ToDo.png" type="image/x-icon" />
+    <script
+      src="https://kit.fontawesome.com/c879086e19.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./css/home.css" />
+    <link rel="stylesheet" href="./css/upcoming.css" />
+  </head>
+  <body>
+    <div class="container">
+      <section class="menu-bar">
+        <section class="menu">
+          <h2>menu</h2>
+          <i class="fa-solid fa-bars"></i>
+        </section>
+        <section class="search">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <input type="search" placeholder="Search..." id="search" />
+        </section>
+        <section class="tasks">
+          <h4>tasks</h4>
+          <ul>
+            <li class="upcoming-page">
+              <a href="upcoming.html"
+                ><i class="fa-solid fa-angles-right"></i>
+                <span class="upcomming"
+                  >upcoming <img src="./images/white_task_count.svg" alt="count"
+                /></span>
+              </a>
+            </li>
+            <li class="today-page">
+              <a href="today.html"
+                ><i class="fa-solid fa-list"></i>
+                <span
+                  >today <img src="./images/listcount.svg" alt="count"
+                /></span>
+              </a>
+            </li>
+            <li class="calendar-page">
+              <a href="calendar.html"
+                ><i class="fa-regular fa-calendar"></i> <span>calendar</span></a
+              >
+            </li>
+            <li class="sticky-wall-page">
+              <a href="">
+                <i class="fa-solid fa-note-sticky"></i>
+                <span>sticky wall</span>
+              </a>
+            </li>
+          </ul>
+        </section>
+        <section class="lists">
+          <h4>lists</h4>
+          <ul>
+            <li>
+              <a href="">
+                <img src="./images/red.svg" alt="red" />
+                <span>work</span>
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <img src="./images/green.svg" alt="green" />
+                <span>personal</span>
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <img src="./images/blue.svg" alt="blue" />
+                <span>study</span>
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <i class="fa-solid fa-circle-plus"></i>
+                <span>Add new list</span>
+              </a>
+            </li>
+          </ul>
+        </section>
+        <section class="settings">
+          <i class="fa-solid fa-sliders"></i>
+          <span>settings</span>
+        </section>
+        <section class="logout">
+          <i class="fa-solid fa-arrow-right-from-bracket"></i>
+          <span>sign out</span>
+        </section>
+      </section>
+      <div class="main">
+        <section class="head">
+          <h2>upcoming</h2>
+          <img src="./images/upcomingcount.svg" alt="" />
+        </section>
+        <section class="today">
+          <h3>today</h3>
+          <div class="add-task">
+            <a href=""><i class="fa-solid fa-circle-plus"></i> Add new task</a>
+          </div>
+          <div class="task-list">
+            <div class="task">
+              <input type="checkbox" id="task1" />
+              <label for="task1">Database create for company</label>
+            </div>
+            <div class="task">
+              <input type="checkbox" id="task2" />
+              <label for="task2">Website templates</label>
+            </div>
+            <div class="task">
+              <input type="checkbox" id="task3" />
+              <label for="task3">Meet work team</label>
+            </div>
+          </div>
+        </section>
+        <div class="not-today">
+          <section class="tomorrow">
+            <h3>tomorrow</h3>
+            <div class="add-task">
+              <a href=""
+                ><i class="fa-solid fa-circle-plus"></i> Add new task</a
+              >
+            </div>
+            <div class="task-list">
+              <div class="task">
+                <input type="checkbox" id="task4" />
+                <label for="task4">Work team</label>
+              </div>
+              <div class="task">
+                <input type="checkbox" id="task5" />
+                <label for="task5">Job interview</label>
+              </div>
+            </div>
+          </section>
+          <section class="this-week">
+            <h3>this week</h3>
+            <div class="add-task">
+              <a href=""
+                ><i class="fa-solid fa-circle-plus"></i> Add new task</a
+              >
+            </div>
+            <div class="task-list">
+              <div class="task">
+                <input type="checkbox" id="task6" />
+                <label for="task6">Research content ideas</label>
+              </div>
+              <div class="task">
+                <input type="checkbox" id="task7" />
+                <label for="task7">Consult accountant</label>
+              </div>
+              <div class="task">
+                <input type="checkbox" id="task8" />
+                <label for="task8">Print business card</label>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

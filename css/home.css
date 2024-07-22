@@ -1,0 +1,210 @@
+@import url("https://fonts.googleapis.com/css2?family=Inder&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 15rem;
+  margin: 0 0.55rem;
+  margin-top: 0.75rem;
+}
+
+.menu > h2 {
+  text-transform: capitalize;
+  font-family: "Oswald", sans-serif;
+  font-size: 2rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+.menu > i {
+    margin-top: 0.5rem;
+}
+
+.menu-bar {
+  background-color: #f4f4f4;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0.15rem;
+  margin: 0.5rem;
+  height: 95dvh;
+  border-radius: 2rem;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  background-color: #ebebeb;
+  border-radius: 1.5rem;
+  padding: 0.35rem 0.75rem;
+  gap: 2rem;
+}
+
+.search > i {
+  width: 0.9375rem;
+  height: 0.9375rem;
+}
+
+.search > input {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  font-family: "Noto Sans", sans-serif;
+  font-size: 0.875rem;
+  font-weight: 300;
+}
+
+.tasks > h4,
+.lists > h4 {
+  font-family: "Oswald", sans-serif;
+  font-size: 0.9375rem;
+  text-transform: capitalize;
+  margin: 0.75rem 0;
+  margin-left: 1.25rem;
+}
+
+.tasks > ul > li,
+.lists > ul > li {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  border-radius: 3rem;
+  padding: 0.25rem 0;
+  padding-left: 1.25rem;
+}
+
+.tasks > ul > li:hover,
+.lists > ul > li:hover {
+  background-color: #dfdfdf;
+}
+
+.tasks > ul,
+.lists > ul {
+  display: flex;
+  flex-direction: column;
+  padding-left: 1rem;
+  gap: 0.25rem;
+}
+
+.tasks > ul > li > a > span,
+.lists > ul > li > a > span {
+  margin-left: 1.25rem;
+  display: inline-flex;
+  width: 80%;
+  justify-content: space-between;
+  text-transform: capitalize;
+  font-family: "Noto Sans", sans-serif;
+  font-size: 0.8125rem;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.tasks > ul > li > a,
+.lists > ul > li > a {
+  text-decoration: none;
+  color: #000;
+  display: inline-flex;
+  align-items: center;
+  width: 100%;
+}
+
+.tasks > ul > li > a > i {
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.lists > ul > li > a > i {
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.settings {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.75rem;
+  cursor: pointer;
+  margin-left: 1.25rem;
+}
+
+.settings > span {
+  font-family: "Noto Sans", sans-serif;
+  text-transform: capitalize;
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 1.25rem;
+  font-weight: 400;
+}
+
+.settings > i {
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.logout {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.75rem;
+  cursor: pointer;
+  margin-left: 1.25rem;
+}
+
+.logout > span {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 1.25rem;
+  font-weight: 400;
+  text-transform: capitalize;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.logout > i {
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.home {
+  display: flex;
+  flex-grow: 2;
+  background-color: #f4f4f4;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 95dvh;
+  border-radius: 2rem;
+}
+
+.home > h3 {
+  text-transform: capitalize;
+  font-family: "Oswald", sans-serif;
+  font-size: 2.25rem;
+  font-weight: 400;
+}
+
+.home > p {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 0.9375rem;
+  font-weight: 400;
+  line-height: 156.2%;
+  width: 30.6875rem;
+  text-align: center;
+}
+
+.home > a {
+  display: inline-block;
+  text-decoration: none;
+  color: #000;
+  font-family: "Oswald", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 400;
+  background-color: #76de37;
+  width: 12rem;
+  text-align: center;
+  padding: 0.25rem;
+  border-radius: 0.5rem;
+}

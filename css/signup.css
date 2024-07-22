@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inder&display=swap');
+
+:root {
+    --padding: 4.25rem;
+    --padd: calc(var(--padding) * 2);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #C4C4C4;
+}
+
+.img > img {
+    height: 35rem;
+}
+
+.container {
+    width: 99.7dvw;
+    height: 99.3dvh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3em;
+}
+
+.fa-eye-slash {
+    display: none;
+}
+
+.signup-form {
+    display: flex;
+    flex-direction: column;
+    height: 35rem;
+    width: 28rem;
+    justify-content: center;
+    align-items: center;
+    background: #FFF9F9;
+    border-radius: 7%;
+}
+
+.signup-form h3 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 2.25rem;
+    width: 100%;
+    padding-left: 8.25rem;
+    margin: 1rem;
+}
+
+.sign-up {
+    width: 18.75rem;
+    font-family: 'Inder', sans-serif;
+    font-size: 0.9375rem;
+    font-weight: 400;
+    height: 2.5rem;
+    background-color: #76DE37;
+    border-radius: 0.75rem;
+    border: none;
+    cursor: pointer;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 17rem;
+    width: calc(28rem - 0.125rem - var(--padd));
+    padding: 0 var(--padding);
+}
+input, sign-up {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 0.9375rem;
+    font-weight: 400;
+}
+span {
+    display: flex;
+    justify-content: center;
+    background: transparent;
+    padding: 0.02em 0.25em;
+    width: 18em;
+    height: 2em;
+    align-items: center;
+    border: 1px solid #000;
+    border-radius: 0.5rem;
+}
+
+.pass > * {
+    border: none;
+    outline: none;
+}
+
+input {
+    border: none;
+    outline: none;
+    width: 100%;
+}
+
+.signin {
+    font-family: 'Noto Sans', sans-serif;
+    margin-right: 0.15rem;
+}
+
+.sign-in {
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #000;
+}

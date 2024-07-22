@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Inder&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap');
+
+
+.container {
+    display: flex;
+    gap: 1rem;
+}
+
+.today-page{
+    background: #dfdfdf;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    height: 95dvh;
+    width: 99dvw;
+    gap: 1rem;
+}
+
+.main > .head {
+    display: flex;
+    align-items: center;
+    gap: 1.25rem;
+}
+
+.main > .head > h2 {
+    text-transform: capitalize;
+    font-family: 'Oswald', sans-serif;
+    font-size: 2.25rem;
+    font-weight: 400;
+    margin: 0;
+    padding-bottom: 0.75rem;
+}
+
+.main > .tasks {
+    padding: 0.5rem 1.25rem;
+    height: 95dvh;
+    width: 63rem;
+    border: 1px solid #00000066;
+    border-radius: 1.88rem;
+    margin-right: 1.25rem;
+}
+
+.main > .tasks > h3 {
+    margin: 0;
+    text-transform: capitalize;
+    font-family: 'Oswald', sans-serif;
+    font-size: 2.25rem;
+    font-weight: 400;
+}
+
+.main > .tasks > span, .main > .tasks > div {
+    padding: 0 0.75rem;
+}
+
+.main > .tasks > div {
+    border-bottom: 1px solid #00000066;
+}
+
+.add-tasks {
+    display: inline-flex;
+    width: 97.75%;
+    height: 2rem;
+    align-items: center;
+    border: 1px solid #00000066;
+    border-radius: 0.75rem;
+    padding: 0.75rem 1.25rem;
+}
+
+.add-tasks > a {
+    text-decoration: none;
+    color: #000000b3;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 0.875rem;
+    font-weight: 300;
+}
+
+.tasks > .task {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 0.875rem;
+    font-weight: 400;
+    margin: 0.75rem 0;
+}
